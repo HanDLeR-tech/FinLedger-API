@@ -78,9 +78,9 @@ REFRESH_TOKEN=your_refresh_token
 node server.js
 
 Server will run on:
-http://localhost:5000
+http://localhost:3000
 
 ---
 
 ## Deployment
-Backend deployed on cloud server (Render) with MongoDB Atlas database.git add README.md
+Backend deployed on cloud server (Render) with MongoDB Atlas database
