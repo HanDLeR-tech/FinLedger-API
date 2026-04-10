@@ -106,7 +106,7 @@ Required fields:
     },
     servers: [
       {
-        url: "http://localhost:3000/api",
+        url: "https://finledger-api.onrender.com",
       },
     ],
     components: {
