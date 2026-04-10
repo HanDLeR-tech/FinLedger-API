@@ -13,7 +13,7 @@ const router = express.Router();
 
 /**
  * @swagger
- * /accounts:
+ * /api/accounts:
  *   post:
  *     summary: Create a new bank account
  *     tags: [Accounts]
@@ -39,7 +39,7 @@ router.post("/", authMiddleware.authMiddleware,accountController.createAccountCo
 
 /**
  * @swagger
- * /accounts:
+ * /api/accounts:
  *   get:
  *     summary: Get all accounts of logged-in user
  *     tags: [Accounts]
@@ -62,7 +62,7 @@ router.get("/", authMiddleware.authMiddleware, accountController.getUserAccountC
 
 /**
  * @swagger
- * /accounts/balance/{accountId}:
+ * /api/accounts/balance/{accountId}:
  *   get:
  *     summary: Get balance of an account
  *     tags: [Accounts]

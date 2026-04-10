@@ -14,7 +14,7 @@ const transactionRoutes = Router();
 
 /**
  * @swagger
- * /transactions:
+ * /api/transactions:
  *   post:
  *     summary: Transfer money between accounts
  *     tags: [Transactions]
@@ -75,7 +75,7 @@ transactionRoutes.post('/', authMiddleware.authMiddleware, transactionController
 
  /**
  * @swagger
- * /transactions/system/initial-funds:
+ * /api/transactions/system/initial-funds:
  *   post:
  *     summary: Add initial funds to an account (System User Only)
  *     tags: [Transactions]
